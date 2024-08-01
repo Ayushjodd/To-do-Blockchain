@@ -1,5 +1,9 @@
-import React from "react";
-
-export default function DeleteTask() {
-  return <div>DeleteTask</div>;
-}
+import Navigation from "../components/Navigation";
+const DeleteTask = () => {
+  return (
+    <>
+      <Navigation />
+    </>
+  );
+};
+export default DeleteTask;
